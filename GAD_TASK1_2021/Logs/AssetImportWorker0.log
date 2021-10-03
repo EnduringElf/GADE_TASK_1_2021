@@ -150,3 +150,34 @@ System memory in use after: 56.7 MB.
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1550.
 Total: 1.998500 ms (FindLiveObjects: 0.161100 ms CreateObjectMapping: 0.049700 ms MarkObjects: 1.720600 ms  DeleteObjects: 0.065600 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001318 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.029 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.6 MB.
+System memory in use after: 56.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1552.
+Total: 3.042000 ms (FindLiveObjects: 0.231400 ms CreateObjectMapping: 0.093100 ms MarkObjects: 2.547100 ms  DeleteObjects: 0.168200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 270.748292 seconds.
+  path: Assets/scripts/linknode.cs
+  artifactKey: Guid(09bb92e2791c19649b921d372ac3bdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/linknode.cs using Guid(09bb92e2791c19649b921d372ac3bdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a915699d045467324ef1f09dfa1a12') in 0.006422 seconds
+  Import took 0.009685 seconds .
+
