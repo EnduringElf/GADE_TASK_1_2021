@@ -12,7 +12,7 @@ public class game_manager : MonoBehaviour
 
     private void Awake()
     {
-
+        dialogue = new Linkedlist();
         //used on combination with the json helper to import the file into the program 
         //scince unity can not use it own jsonutility to do itself 
         //only this part uses array but wipes it after memory and is never called!
@@ -22,7 +22,7 @@ public class game_manager : MonoBehaviour
         {
             dialogue.addnodeFront(dialogue, test[i]);
         }
-        
+        //Debug.Log(test[test.Length - 2].Index);
         
     }
 

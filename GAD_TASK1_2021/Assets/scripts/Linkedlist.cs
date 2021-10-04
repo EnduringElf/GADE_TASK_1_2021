@@ -11,9 +11,11 @@ public class Linkedlist : MonoBehaviour
 
     public void addnodeFront(Linkedlist linkedlist, linknode parsenode)
     {
+        
         linknode newNode = parsenode;
         newNode.Next = linkedlist.Head;
         linkedlist.Head = newNode;
+        Debug.Log("sucssuffully made node with index :" + newNode.Index);
     }
 
     public void Addnodelast(Linkedlist linkedlist, linknode linknode)
