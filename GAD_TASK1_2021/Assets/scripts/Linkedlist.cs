@@ -27,6 +27,7 @@ public class Linkedlist : MonoBehaviour
         }
         linknode lastNode = GetLastNode(linkedlist);
         lastNode.Next = linknode;
+        Debug.Log("sucssuffully made node with index :" + lastNode.Index);
     }
 
     private linknode GetLastNode(Linkedlist linkedlist)
@@ -61,7 +62,7 @@ public class Linkedlist : MonoBehaviour
 
     }
 
-    linknode SearchByIndex(Linkedlist linkedlist , int index)
+    public linknode SearchByIndexforlinknode(Linkedlist linkedlist , int index)
     {
         linknode temphead = linkedlist.Head;
         //string temp;
@@ -71,7 +72,45 @@ public class Linkedlist : MonoBehaviour
         }
         return temphead;
     }
-    
+
+    public string searchfornextindex(Linkedlist linkedlist, int nextindex)
+    {
+        linknode temp = linkedlist.Head;
+        while(temp.Index != nextindex)
+        {
+            temp = temp.Next;
+        }
+        return temp.Diag;
+    }
+
+    linknode SearchByAuthor(Linkedlist linkedlist,string author)
+    {
+        linknode temphead = linkedlist.Head;
+        //string temp;
+        while (temphead.Author != author)
+        {
+            temphead = temphead.Next;
+        }
+        return temphead;
+    }
+
+    public string searchbyauthorfirstforfirstdiag(Linkedlist linkedlist, string author)
+    {
+        linknode temphead = linkedlist.Head;
+        while(temphead.Author != author)
+        {
+            if(temphead == null)
+            {
+                break;
+            }
+            
+            temphead = temphead.Next;
+        }
+        return temphead.Diag;
+    }
+
+
+
 }
 
 
