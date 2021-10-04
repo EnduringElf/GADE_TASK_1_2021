@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":1.6629481315612794,"y":2.5,"z":-2.4969189167022707},"rotation":{"x":-0.15349633991718293,"y":-0.09507594257593155,"z":0.014676282182335854,"w":-0.9834886789321899},"size":8.629494667053223,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":1.6629481315612794,"y":2.5,"z":-2.4969189167022707},"rotation":{"x":0.25851744413375857,"y":-0.13904444873332978,"z":0.03768271580338478,"w":0.9552322030067444},"size":6.324746131896973,"orthographic":false}
+>>>>>>> parent of 2556c5f (major update)

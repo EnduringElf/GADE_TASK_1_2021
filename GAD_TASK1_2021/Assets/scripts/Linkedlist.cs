@@ -27,7 +27,6 @@ public class Linkedlist : MonoBehaviour
         }
         linknode lastNode = GetLastNode(linkedlist);
         lastNode.Next = linknode;
-        Debug.Log("sucssuffully made node with index :" + lastNode.Index);
     }
 
     private linknode GetLastNode(Linkedlist linkedlist)
@@ -62,7 +61,7 @@ public class Linkedlist : MonoBehaviour
 
     }
 
-    public linknode SearchByIndexforlinknode(Linkedlist linkedlist , int index)
+    linknode SearchByIndex(Linkedlist linkedlist , int index)
     {
         linknode temphead = linkedlist.Head;
         //string temp;
@@ -72,6 +71,7 @@ public class Linkedlist : MonoBehaviour
         }
         return temphead;
     }
+<<<<<<< HEAD
 
     public string searchfornextindex(Linkedlist linkedlist, int nextindex)
     {
@@ -110,6 +110,9 @@ public class Linkedlist : MonoBehaviour
 
 
 
+=======
+    
+>>>>>>> parent of 2556c5f (major update)
 }
 
 
