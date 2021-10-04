@@ -5,15 +5,15 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637687705996124026
-    m_Hash: 1277644923
+      ticks: 637689683894433162
+    m_Hash: 150835238
   m_LockFileStatus:
     m_FilePath: C:/Users/NIKHEIL/Documents/GADE_TASK_1_2021/GAD_TASK1_2021/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637687706231317922
+      ticks: 637689684748757976
     m_Hash: 2351046896
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -65,6 +65,10 @@ m_PackageAssets:
         - 1.7.1
         - 1.8.0
         - 1.9.0
+        - 1.10.2
+        - 1.11.2
+        - 1.12.5
+        - 1.13.5
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -81,6 +85,8 @@ m_PackageAssets:
         - 1.5.7
         - 1.6.0
         - 1.8.0
+        - 1.10.2
+        - 1.12.5
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -342,6 +348,7 @@ m_PackageAssets:
         - 1.2.1
         - 1.2.2
         - 1.2.3
+        - 1.2.4
         compatible:
         - 1.0.2
         - 1.0.3
@@ -354,7 +361,8 @@ m_PackageAssets:
         - 1.2.1
         - 1.2.2
         - 1.2.3
-        verified: 1.2.3
+        - 1.2.4
+        verified: 1.2.4
       dependencies: []
       resolvedDependencies: []
       keywords: []
