@@ -1,0 +1,102 @@
+{
+"Author" : "Jane"
+"Diag" : "You don't have to do this. We can find another way to make money!"
+"Index" : 0
+"NextIndex" : 1
+"Item" : null
+"ItemDiag" : null
+}
+{
+"Author" : "Player"
+"Diag" : "If I don't then we'll get kicked out onto the streets! Can't you see? I'm doing this for us. The economy is going south fast and my only goal is to feed you."
+"Index" : 1
+"NextIndex" : 2
+"Item" : null
+"ItemDiag" : null
+}
+{
+"Author" : "Jane"
+"Diag" : "Okay, just please, be safe. I'll try and think of something else in the meantime."
+"Index" : 2
+"NextIndex" : null
+"Item" : null
+"ItemDiag" : null
+}
+
+
+
+{
+"Author" : "Player"
+"Diag" : "This'll be a quick in and out. Don't make a sound and don't leave a trace."
+"Index" : 3
+"NextIndex" : 4
+"Item" : null
+"ItemDiag" : null
+}
+{
+"Author" : "Thief"
+"Diag" : "Before we go, I got us a new toy we can use. I call it the Claw Grabber. With this bad boy we'll be able to get anything from a distance. Should be useful."
+"Index" : 4
+"NextIndex" : 5
+"Item" : "Claw_Grabber"
+"ItemDiag" : "You'll be a pro with it in no time!"
+}
+{
+"Author" : "Player"
+"Diag" : "Guess we'll just have to wait and see."
+"Index" : 5
+"NextIndex" : 
+"Item" : "Claw_Grabber"
+"ItemDiag" : "This could definitely make my life easier to not get spotted."
+}
+
+
+
+{
+"Author" : "Officer"
+"Diag" : "Evening, what are you doing out so late?"
+"Index" : 6
+"NextIndex" : 7
+"Item" : null
+"ItemDiag" : null
+}
+{
+"Author" : "Player"
+"Diag" : "Just going out for my nightly jog officer."
+"Index" : 7
+"NextIndex" : 8
+"Item" : null
+"ItemDiag" : null
+}
+{
+"Author" : "Officer"
+"Diag" : "Is that so? Well you be safe then."
+"Index" : 8
+"NextIndex" : 9
+"Item" : "HAS_BAG"
+"ItemDiag" : "Is that so? Strange thing to be having when you're just going on a jog..."
+}
+{
+"Author" : "Player"
+"Diag" : "I need to go now."
+"Index" : 9
+"NextIndex" : null
+"Item" : null
+"ItemDiag" : null
+}
+{
+"Author" : "Officer"
+"Diag" : "Is that so? Well you be safe then."
+"Index" : 8
+"NextIndex" : 9
+"Item" : "HAS_SCRATCHES"
+"ItemDiag" : "You look injured, maybe come with me."
+}
+{
+"Author" : "Player"
+"Diag" : "I need to go now."
+"Index" : 9
+"NextIndex" : null
+"Item" : null
+"ItemDiag" : null
+}

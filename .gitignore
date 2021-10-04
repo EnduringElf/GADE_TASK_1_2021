@@ -2,12 +2,16 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/[Ll]ibrary/
-/[Tt]emp/
+[Ll]ibrary/
+[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
 /[Bb]uilds/
 /[Ll]ogs/
+
+
+# MemoryCaptures can get excessive in size.
+# They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
@@ -58,4 +62,15 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Packed Addressables
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+
+
 GAD_TASK1_2021/Temp/UnityLockfile
+GAD_TASK1_2021/Library/Artifacts/84/84109cc1d769dd0b11147ae1593c225e
+GAD_TASK1_2021/Logs/AssetImportWorker0.log
+GAD_TASK1_2021/Temp/CompilationLog.txt
+GAD_TASK1_2021/Temp/UnityTempFile-34b1f88cca5502e4cbe6c76c106560a3
+GAD_TASK1_2021/Library/ArtifactDB
+GAD_TASK1_2021/Library/SourceAssetDB
