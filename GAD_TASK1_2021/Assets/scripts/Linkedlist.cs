@@ -103,7 +103,6 @@ public class Linkedlist : MonoBehaviour
             {
                 break;
             }
-            
             temphead = temphead.Next;
         }
         return temphead.Diag;
